@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+            bio
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                
+                
+            
+
+            .el{
+                display:flex;
+                flex-direction:row;
+                margin-top:10px;
+                font-family: cursive;
+                line-height:01;
+                color:rgb(88, 87, 87);
+
+            }
+            .el h3 {
+                font-weight: bold;
+                color:rgb(168, 167, 167);
+            }
+                
+            
+           .el-img img{
+
+            box-shadow:1px 1px 20px 6px rgb(37, 155, 43);
+            border-radius: 30px;
+            transform: scale(0.8);
+            display: block;
+            position:relative;
+            right:-190%;
+            top:-10%;
+  
+         }
+            .el-content{
+                padding:20px;
+                box-shadow: 10px 2px 20px 2px green;
+                border-radius:100px 0px 100px 0px;
+                width: 40vw;
+                height: 20vh;
+                position:absolute;
+                top:15%;
+                left: -50%; /* Initially hides the content off-screen to the left */
+                background-color: white;
+                transition: left 1s ease-in-out; 
+            }
+            .el-content1{
+                padding:20px;
+                box-shadow: 10px 2px 20px 2px green;
+                border-radius:100px 0px 100px 0px;
+                width: 40%;
+                height: 20%;
+                position:absolute;
+                left:60;
+                top:45%;
+                left: -100%; /* Initially hides the content off-screen to the left */
+                background-color: white;
+                transition: left 1.5s ease-in-out; 
+            }
+            .el-content2{
+                padding:20px;
+                box-shadow: 10px 2px 20px 2px green;
+                border-radius:100px 0px 100px 0px;
+                width: 40%;
+                height: 20%;
+                position:absolute;
+                left:60;
+                top:75%;
+                left: -100%; /* Initially hides the content off-screen to the left */
+                background-color: white;
+                transition:  2s ease-in-out;
+            }
+            .el:hover .el-content {
+            left: 10%; /* Show the content on hover by sliding it from left to right */
+            }
+            .el:hover .el-content1 {
+            left: 10%; /* Show the content on hover by sliding it from left to right */
+            }
+            .el:hover .el-content2 {
+            left: 10%; /* Show the content on hover by sliding it from left to right */
+            }
+
+
+            .bio-head h1{
+                text-align: center;
+                
+                -webkit-background-clip: text;
+                -webkit-text-fill-color:transparent;
+                font-family: cursive;
+                padding: 10px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px green;
+                
+                background-image: linear-gradient(to bottom,rgb(55, 141, 5) 80%,white);
+            }
+            
+
+            @media screen and (max-width:600px) {
+                .el-img img{
+                    right:1%;
+                    transform: scale(0.5);
+                    top:-25%;
+                }
+                
+                
+                .el-content,.el-content1,.el-content2{
+                    height:60vh;
+                    width:50vw;
+                    background:linear-gradient(to bottom,white 20%,rgba(15, 247, 73, 0.363) );
+                    border-radius:20px ;
+                    box-shadow: 2px 2px 30px 3px rgb(118, 218, 168);
+                    transition: 11111111111111111111s;
+                    
+                }
+                .el-content{
+                    top:80%;
+                    left:30%;
+                    
+
+                }
+                .el-content1{
+                    top:140%;
+                    left:30%;
+                }
+                .el-content2{
+                    top:200%;
+                    left:30%;
+                }
+            }
+    
+</style>
+
+
+
+        </style>
+
+    </head>
+    <body>
+            <div class="bio-head"><h1>BIOGRAPHY</h1></div>
+
+        <div class ="el">
+            <div class="el-img">
+                <img src="images\rgg.png">
+                
+
+            </div>
+            <div class="el-content">
+                <h3>Early life and Education</h3>
+                <p>Nimmakayala Chinna Rajappa was born in Pedagadavalli, Uppalaguptam Zone, East Godavari District. From an early age, he displayed a keen interest in social welfare and politics, nurturing a deep-seated desire to serve his community.  He completed his post-graduation in Master of Arts.</p>
+
+            </div>
+
+            <div class="el-content1">
+                <h3>Political Journey and Contributions </h3>
+                <p>Joined Telugu Desam Party and swiftly rose through the ranks, earning the trust and admiration of his constituents. Rajappa's political career spans several significant roles and accomplishments. </p>
+
+            </div>
+
+            <div class="el-content2">
+                <h3>Ministerial Positions</h3>
+                <p>Rajappa was entrusted with ministerial responsibilities. He served as MLC from 2007 to 2013. where he implemented progressive policies and spearheaded initiatives that contributed to the overall growth of the state. His tenure witnessed significant advancements in sectors and brought about positive transformations. </p>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
